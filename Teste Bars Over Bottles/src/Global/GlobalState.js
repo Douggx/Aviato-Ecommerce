@@ -23,7 +23,7 @@ const GlobalState = (props) => {
   //     .get(`https://bob-teste-front-end.herokuapp.com/api/products.json`, {
   //       headers: {
   //         "Content-Type": "application/json;charset=UTL-8",
-  //         "Access-Control-Allow-Origin": "*",
+  //         "Access-Control-Allow-Origin": "true",
   //         Accept: "application/json, text/plain, */*, application/jsonp",
   //         "Access-Control-Allow-Headers": "Content-Type, Content-Length, Accept-Encoding"
   //       }
