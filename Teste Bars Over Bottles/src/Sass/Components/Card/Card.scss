@@ -1,0 +1,36 @@
+@use '../../Variables/index' as *;
+
+.card {
+    height: 25rem;
+    width: 15.9375rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0rem 0.25rem 0.5rem -0.125rem, rgba(9, 30, 66, 0.08) 0rem 0rem 0rem 0.0625rem;
+    
+}
+
+.photoCard {
+    cursor: pointer;
+    
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.625rem 0.625rem;
+    margin-left: 0.3125rem;
+
+    .price {
+        font-weight: 600;
+    }
+
+    .heart {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        & img {
+            width: 1rem;
+        }
+    }
+}

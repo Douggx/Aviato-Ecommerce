@@ -1,0 +1,46 @@
+@use '../../Variables/index' as *;
+
+nav{
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+
+    @media (max-width: 623px) {
+        gap: 20px;
+    }
+
+    @media (max-width: 489px) {
+        gap: 10px;
+    }
+
+    @media (max-width: 435px) {
+        li {
+            font-size: 12px;
+        }
+    }
+
+
+    & li{
+        color: #414141;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    & li:active{
+        color: #000000;
+        font-weight: 600;
+    }
+
+    :nth-child(6){
+        color: #f92f2f;
+    }
+}

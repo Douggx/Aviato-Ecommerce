@@ -1,0 +1,21 @@
+@use '../../Variables/index' as *;
+
+.errorSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 30vh;
+    align-items: center;
+    background-color: #ebeaef;
+
+    h2 {
+        font-size: 18px;
+        color: black;
+    }
+
+    span {
+        color: rgb(41, 53, 223);
+        cursor: pointer;
+    }
+}

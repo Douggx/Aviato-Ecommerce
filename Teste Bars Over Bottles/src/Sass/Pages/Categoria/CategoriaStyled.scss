@@ -1,0 +1,148 @@
+@use '../../Variables/index' as *;
+
+.container {
+    margin-top: 1.875rem;
+    width: 100vw;
+    height: 40vh;
+    background-color: #454545;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5.625rem;
+
+    & h2 {
+        color: white;
+        text-transform: capitalize;
+        font-family: $secondaryFont;
+        font-size: 2.125rem;
+        font-weight: 600;
+        margin-bottom: 1.875rem;
+    }
+
+    & h3 {
+        color: #c1c1c1;
+        font-size: 1.375rem;
+    }
+
+}
+
+.categoryParameters {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5625rem;
+    justify-content: center;
+    margin-bottom: 1.875rem;
+    
+    :hover {
+        background-color: #eeeded;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 1.125rem;
+        padding: 0.9375rem 0.9375rem;
+        border: 0.125rem solid black;
+        cursor: pointer;
+
+        @media (max-width: 459px) {
+            font-size: 14px;
+        }
+
+        @media (max-width: 383px) {
+            font-size: 12px;
+        }
+
+    }
+}
+
+.order {
+    margin-top: 3.125rem;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 3.125rem;
+}
+
+.select {
+    color: #999999;
+}
+
+.quantidade {
+    h3 {
+        color: #999999;
+    }
+
+    span {
+        font-weight: 600;
+        color: #070707;
+    }
+}
+
+.displayCards2 {
+    margin-top: 1.25rem;
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 3.125rem;
+    justify-content: center;
+    margin-bottom: 6.25rem;
+
+    @media (max-width: 1215px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (max-width: 891px) {
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+    }
+
+    @media (max-width: 533px) {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.125rem;
+    margin-bottom: 3vh;
+
+
+    a {
+        color: black;
+        font-family: 'Poppins';
+        float: left;
+        padding: 0.5rem 1rem;
+        font-size: 1.375rem;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 0.0625rem solid #ddd;
+        border-radius: 0.3125rem;
+
+
+        cursor: pointer;
+
+        :active {
+            background-color: red;
+            color: white;
+        }
+
+        :hover:not(.active) {
+            background-color: #ffc400;
+        }
+    }
+}
+
+.aviso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}

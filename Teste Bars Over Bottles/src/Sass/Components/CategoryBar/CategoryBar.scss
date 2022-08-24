@@ -1,0 +1,27 @@
+@use '../../Variables/index' as *;
+
+.blackWrapper {
+    margin-top: 1.875rem;
+    width: 100vw;
+    height: 20vh;
+    background-color: #454545;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+
+    & h2 {
+        color: white;
+        text-transform: capitalize;
+        font-family: $secondaryFont;
+        font-size: 2.125rem;
+        font-weight: 600;
+        margin-bottom: 1.875rem;
+    }
+
+    & h3 {
+        color: #c1c1c1;
+        font-size: 1.25rem;
+    }
+}

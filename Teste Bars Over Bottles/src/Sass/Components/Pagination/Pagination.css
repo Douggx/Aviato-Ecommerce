@@ -1,0 +1,39 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.125rem;
+  margin-bottom: 3vh;
+  margin-bottom: 7.5rem;
+}
+@media (max-width: 35.875rem) {
+  .pagination {
+    padding: 0.5rem 0.4375rem;
+    font-size: 1.25rem;
+    justify-content: flex-start;
+  }
+}
+.pagination a {
+  color: black;
+  font-family: "Roboto";
+  float: left;
+  padding: 0.5rem 1rem;
+  font-size: 1.375rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+@media (max-width: 35.875rem) {
+  .pagination a {
+    padding: 0.5rem 0.4313rem;
+  }
+}
+.pagination a :active {
+  background-color: red;
+  color: white;
+}
+.pagination a :hover:not(.active) {
+  background-color: #ffc400;
+}/*# sourceMappingURL=Pagination.css.map */

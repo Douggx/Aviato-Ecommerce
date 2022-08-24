@@ -1,0 +1,17 @@
+.errorSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 30vh;
+  align-items: center;
+  background-color: #ebeaef;
+}
+.errorSection h2 {
+  font-size: 18px;
+  color: black;
+}
+.errorSection span {
+  color: rgb(41, 53, 223);
+  cursor: pointer;
+}/*# sourceMappingURL=ErrorPage.css.map */
