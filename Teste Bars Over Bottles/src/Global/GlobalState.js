@@ -20,7 +20,7 @@ const GlobalState = (props) => {
 
   // const getProducts = () => {
   //   axios
-  //   .get(`https://cors-anywhere.herokuapp.com/https://bob-teste-front-end.herokuapp.com/api/products.json`)
+  //   .get(`https://herokuapp.com/cors-anywhere/https://bob-teste-front-end.herokuapp.com/api/products.json`)
   //   .then( res => {
   //     console.log(res)
   //     setProducts(res.data)
