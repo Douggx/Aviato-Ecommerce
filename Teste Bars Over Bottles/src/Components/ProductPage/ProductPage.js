@@ -34,8 +34,8 @@ export default function ProductPage(props) {
                 } return item
             });
             states.setCart(novosItensCarrinho)
-            console.log(novosItensCarrinho)
             localStorage.setItem("cart", JSON.stringify(novosItensCarrinho))
+
         } else {
             const itemAdicionado = states.products.find((item) => itemId === item.id);
 
@@ -44,6 +44,7 @@ export default function ProductPage(props) {
             ]
             states.setCart(novosItensCarrinho)
             localStorage.setItem("cart", JSON.stringify(novosItensCarrinho))
+            alert('Produto adicionado no carrinho!')
         }
     }
 
