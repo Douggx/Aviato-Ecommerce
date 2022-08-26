@@ -5,6 +5,8 @@ JavaScript, React, Sass, React-router-dom, axios
 
 ### Instruções para rodar o projeto
 
+git clone https://github.com/Douggx/Teste-B-O-B.git
+
 npm install 
 
 npm run start
