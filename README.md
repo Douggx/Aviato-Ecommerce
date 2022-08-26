@@ -11,6 +11,8 @@ npm install
 
 npm run start
 
+npm install react-scripts --save (caso nao rode direto)
+
 ### PS:
 
 Existe um console.log no console pois caso a requisição não funcione deixei uma segunda opção comentada
