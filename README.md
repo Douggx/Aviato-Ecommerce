@@ -6,6 +6,7 @@ JavaScript, React, Sass, React-router-dom, axios
 ### Instruções para rodar o projeto
 
 npm install 
+
 npm run start
 
 ### PS:
